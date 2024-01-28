@@ -1,0 +1,41 @@
+button{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: lightgreen;
+    font-size: small;
+    font-size: large;
+    text-align: center;
+    /* color: blue; */
+    font-weight: 800;
+}
+input{
+    width: 159px;
+    height: 40px;
+}
+.main button{
+    
+    margin-bottom: 3px;
+    margin-left: 2.5px;
+}
+.cancel{
+    height: 35px;
+}
+b{
+    /* color: blue; */
+    /* background-color: lightgreen; */
+    font-size: 30px;
+    margin-left: 38px;
+}
+.main{
+    border: 2px solid black;
+    width: 230px;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.displayrow1{
+    margin-left: 7px;
+}
+.firstrow button{
+    margin-bottom: 10px;
+}

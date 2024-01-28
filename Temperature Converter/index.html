@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- The Fahrenheit to Celsius formula is expressed as °C = (°F - 32) × 5/9
+    Temperature in degrees Fahrenheit (°F) = (Temperature in degrees Celsius (°C) * 9/5) + 32. -->
+    <h2>Temperature Converter</h2>
+    <br>
+    <h3>Fahrenheit to Celsius</h3>
+    <label for="fahrenheit">Fahrenheit :</label>
+    <input type="number" id="fahrenheit" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)"
+        onchange="temperatureConverter(this.value)">
+    <p>Celcius : <span id="outputC"></span></p>
+    <br>
+    <h3>Celsius to Fahrenheit</h3>
+    <label for="celsius">Celsius :</label>
+    <input type="number" id="celsius" placeholder="Celsius" oninput="temperatureConverter2(this.value)"
+        onchange="temperatureConverter2(this.value)">
+    <p>Fahrenheit : <span id="outputF"></span></p>
+</body>
+
+</html>

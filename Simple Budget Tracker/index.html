@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Simple Budget Tracker: Design a basic budget tracker that allows users to input their income and expenses to calculate their remaining balance. -->
+    <div class="container" id="main">
+        <h2>Budget Tracker</h2>
+        <h3 class="balance1">Balance : <span id="balance"></span></h3>
+        <label for="income">Income : <span><input type="number" id="income"> <button class="incomeButton">Add</button></span></label>
+        <br><br>
+        <label for="expenses">Expenses : <span><input type="number" id="expenses"> <button class="expensesButton">Add</button></span></label>
+        <div class="passbook" id="passbook">
+            <h3 class="passbookHeading">Passbook</h3>
+            <p id="dataI"></p>
+            <p id="dataE"></p>
+        </div>
+    </div>
+</body>
+<script src="/Simple Budget Tracker/script.js"></script>
+</html>

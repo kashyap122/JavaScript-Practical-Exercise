@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}
+#country,#countryToChange{
+    border-radius: 5px;
+}
+#converted{
+    background-color: white;
+    margin: auto;
+    height: 35px;
+    width: 200px;
+    border: 2px solid black;
+}
+.center1{
+    margin: auto;
+    padding-bottom: 10px;
+}
+h2{
+    padding: 10px;
+}
+.container{
+    background-color: aqua;
+
+    border: 2px solid black;
+
+    margin-top: 10px;
+}
+#converted{
+    margin-bottom: 10px;
+}

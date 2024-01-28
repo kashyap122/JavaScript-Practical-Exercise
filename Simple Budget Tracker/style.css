@@ -1,0 +1,45 @@
+*{
+    background-color: blue;
+}
+
+.passbook{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    margin: 15px;
+    margin-top: 15px;
+    /* padding-bottom: 250px; */
+}
+p{
+    background-color: blanchedalmond;
+    font-size: large;
+
+}
+.passbookHeading{
+    background-color: blanchedalmond;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+.container{
+    background-color: skyblue;
+    margin-left: 400px;
+    border: 2px solid black;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 400px;
+    /* padding-bottom: 30px; */
+}
+h3,h2,label,span{
+    background-color : skyblue;   
+}
+input{
+    background-color: white;
+}
+.incomeButton{
+    border-radius: 5px;
+    background-color: green;
+}
+.expensesButton{
+    border-radius: 5px;
+    background-color: red;
+    
+}
